@@ -1,0 +1,39 @@
+% ============================================================================
+% Shared TikZ style for the figures of the Kerr–Dirac two-channel scattering
+% manuscript (compiled standalone into ../latex/figures/).
+% Authors: Dr. Davide Batic and Dr. Denys Dutykh
+%          (Mathematics Department, Khalifa University of Science and
+%           Technology, Abu Dhabi, UAE)
+%
+% Visual language (used consistently across all figures):
+%   * horizon channel      : navy  (chH)
+%   * spatial-infinity     : teal  (chI)
+%   * accents / emphasis   : gold  (acc)
+%   * future/out data      : solid arrows
+%   * past/in data         : dashed arrows
+%   * proved here          : solid box border
+%   * imported input       : light-gray filled box
+%   * conditional          : dashed box border
+% ============================================================================
+\usepackage{amsmath,amssymb}
+\usetikzlibrary{arrows.meta,positioning,decorations.pathmorphing,calc,matrix}
+
+\definecolor{chH}{HTML}{142D6E}   % horizon channel (navy)
+\definecolor{chI}{HTML}{0E6E6E}   % spatial-infinity channel (teal)
+\definecolor{acc}{HTML}{9A7A2E}   % gold accent
+\definecolor{warm}{HTML}{9C5310}  % sienna (warnings/exclusions)
+\definecolor{ltg}{HTML}{F2F2F2}   % light gray fill (imported)
+
+\tikzset{
+  outarr/.style={-{Stealth[length=2.6mm]}, line width=0.9pt},
+  inarr/.style={-{Stealth[length=2.6mm]}, line width=0.9pt, dashed},
+  axis/.style={-{Stealth[length=2.2mm]}, line width=0.6pt, gray!70!black},
+  wavyH/.style={chH, decorate, decoration={snake, amplitude=0.45mm, segment length=2.6mm}},
+  wavyI/.style={chI, decorate, decoration={snake, amplitude=0.45mm, segment length=2.6mm}},
+  proved/.style={draw, line width=0.7pt, rounded corners=2pt, inner sep=4pt},
+  imported/.style={draw=gray!60, fill=ltg, line width=0.5pt, rounded corners=2pt, inner sep=4pt},
+  conditional/.style={draw, dashed, line width=0.7pt, rounded corners=2pt, inner sep=4pt},
+  lab/.style={font=\small},
+  slab/.style={font=\footnotesize},
+  tlab/.style={font=\scriptsize},
+}

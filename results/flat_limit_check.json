@@ -1,0 +1,81 @@
+{
+ "description": "flat (M = 0) certification benchmarks: exact a=0 case and oblate a!=0 case",
+ "parameters": {
+  "mass": 0.2,
+  "omega": 0.5,
+  "u_left": -120.0,
+  "u_right": 120.0,
+  "u_match": 0.0,
+  "rtol": 1e-11,
+  "atol": 1e-12,
+  "a_oblate": 0.4,
+  "k_oblate": 0,
+  "lambda_oblate": 1.1609940905782437
+ },
+ "cases": [
+  {
+   "lambda": 0.0,
+   "a": 0.0,
+   "S": [
+    [
+     [
+      1.0421842485349451e-26,
+      -2.402375188534974e-16
+     ],
+     [
+      1.0,
+      8.676287166051162e-11
+     ]
+    ],
+    [
+     [
+      1.0,
+      8.676287166051163e-11
+     ],
+     [
+      1.0421854530837038e-26,
+      -2.402375188502876e-16
+     ]
+    ]
+   ],
+   "unitary_defect_2norm": 2.1089397489079377e-26,
+   "antidiagonality_defect": 4.80475037703785e-16,
+   "transmission_modulus_defect": 0.0,
+   "det_conjugation_defect": 0.0,
+   "reciprocity_defect": 1.2924697071141057e-26,
+   "transmission_identity_defect": 1.9166890297128703e-12
+  },
+  {
+   "lambda": 1.1609940905782437,
+   "a": 0.4,
+   "S": [
+    [
+     [
+      -0.9995389008363084,
+      0.01611954302724367
+     ],
+     [
+      -0.02573036561008803,
+      0.000143343773766172
+     ]
+    ],
+    [
+     [
+      -0.025733233170631142,
+      0.00014335974893558704
+     ],
+     [
+      0.9996564576395727,
+      0.0049820329147754975
+     ]
+    ]
+   ],
+   "unitary_defect_2norm": 2.8676091531735896e-06,
+   "antidiagonality_defect": 1.9993377443068119,
+   "transmission_modulus_defect": 0.9742692351091873,
+   "det_conjugation_defect": 0.0,
+   "reciprocity_defect": 2.8676050415723315e-06,
+   "transmission_identity_defect": 2.8676051476352967e-06
+  }
+ ]
+}

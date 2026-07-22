@@ -1,0 +1,9 @@
+# Companion repository of "Two-channel Dollard scattering and partial-wave
+# resonances for massive Dirac fields on Kerr".
+# Authors: Dr. Davide Batic and Dr. Denys Dutykh
+#          (Mathematics Department, Khalifa University of Science and
+#           Technology, Abu Dhabi, UAE)
+# Python >= 3.12 is assumed.
+numpy>=1.26
+scipy>=1.13
+matplotlib>=3.9

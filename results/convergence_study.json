@@ -1,0 +1,180 @@
+{
+ "description": "finite-endpoint convergence of the matching benchmarks",
+ "u_rights": [
+  60.0,
+  80.0,
+  110.0,
+  150.0,
+  200.0,
+  270.0,
+  360.0
+ ],
+ "schwarzschild": {
+  "first_order": {
+   "refined": false,
+   "u_ref": 480.0,
+   "rows": [
+    {
+     "u_right": 60.0,
+     "unitary_defect": 0.0003465410957353885,
+     "phase_drift_S12": 0.007211009277839298
+    },
+    {
+     "u_right": 80.0,
+     "unitary_defect": 0.00019489891507482542,
+     "phase_drift_S12": 0.004514408993527064
+    },
+    {
+     "u_right": 110.0,
+     "unitary_defect": 0.00010307827507407327,
+     "phase_drift_S12": 0.0026222220421322495
+    },
+    {
+     "u_right": 150.0,
+     "unitary_defect": 5.5430566118726865e-05,
+     "phase_drift_S12": 0.001470868757514343
+    },
+    {
+     "u_right": 200.0,
+     "unitary_defect": 3.117860025075366e-05,
+     "phase_drift_S12": 0.0008119172619630022
+    },
+    {
+     "u_right": 270.0,
+     "unitary_defect": 1.7107344354538222e-05,
+     "phase_drift_S12": 0.0003842822424138803
+    },
+    {
+     "u_right": 360.0,
+     "unitary_defect": 9.622722479639891e-06,
+     "phase_drift_S12": 0.00013988473396303602
+    }
+   ]
+  },
+  "refined": {
+   "refined": true,
+   "u_ref": 480.0,
+   "rows": [
+    {
+     "u_right": 60.0,
+     "unitary_defect": 0.0003465410957351663,
+     "phase_drift_S12": 0.016878414744131043
+    },
+    {
+     "u_right": 80.0,
+     "unitary_defect": 0.0001948989150766016,
+     "phase_drift_S12": 0.01183139076801587
+    },
+    {
+     "u_right": 110.0,
+     "unitary_defect": 0.0001030782750794026,
+     "phase_drift_S12": 0.007836684352265921
+    },
+    {
+     "u_right": 150.0,
+     "unitary_defect": 5.543056612005928e-05,
+     "phase_drift_S12": 0.005057005860885866
+    },
+    {
+     "u_right": 200.0,
+     "unitary_defect": 3.117860026185631e-05,
+     "phase_drift_S12": 0.0031912835148174556
+    },
+    {
+     "u_right": 270.0,
+     "unitary_defect": 1.7107344341215048e-05,
+     "phase_drift_S12": 0.0017586781778713423
+    },
+    {
+     "u_right": 360.0,
+     "unitary_defect": 9.622722484969389e-06,
+     "phase_drift_S12": 0.0007488408887946219
+    }
+   ]
+  }
+ },
+ "kerr": {
+  "first_order": {
+   "refined": false,
+   "u_ref": 480.0,
+   "rows": [
+    {
+     "u_right": 60.0,
+     "unitary_defect": 0.0004616682842056815,
+     "phase_drift_S12": 0.00825304824833284
+    },
+    {
+     "u_right": 80.0,
+     "unitary_defect": 0.00025963895219915326,
+     "phase_drift_S12": 0.005171408302756031
+    },
+    {
+     "u_right": 110.0,
+     "unitary_defect": 0.0001373156135369631,
+     "phase_drift_S12": 0.0029977577972303826
+    },
+    {
+     "u_right": 150.0,
+     "unitary_defect": 7.384045207347537e-05,
+     "phase_drift_S12": 0.0016972889095914212
+    },
+    {
+     "u_right": 200.0,
+     "unitary_defect": 4.153385100116162e-05,
+     "phase_drift_S12": 0.0009469244810229593
+    },
+    {
+     "u_right": 270.0,
+     "unitary_defect": 2.2789094245239208e-05,
+     "phase_drift_S12": 0.0004578608984733834
+    },
+    {
+     "u_right": 360.0,
+     "unitary_defect": 1.2818834887029666e-05,
+     "phase_drift_S12": 0.00017111692493904096
+    }
+   ]
+  },
+  "refined": {
+   "refined": true,
+   "u_ref": 480.0,
+   "rows": [
+    {
+     "u_right": 60.0,
+     "unitary_defect": 0.0004616682842079017,
+     "phase_drift_S12": 0.017920453714619256
+    },
+    {
+     "u_right": 80.0,
+     "unitary_defect": 0.00025963895219870874,
+     "phase_drift_S12": 0.012488390077242062
+    },
+    {
+     "u_right": 110.0,
+     "unitary_defect": 0.00013731561353651906,
+     "phase_drift_S12": 0.008212220107364776
+    },
+    {
+     "u_right": 150.0,
+     "unitary_defect": 7.384045208280138e-05,
+     "phase_drift_S12": 0.005283426012952952
+    },
+    {
+     "u_right": 200.0,
+     "unitary_defect": 4.153385099627641e-05,
+     "phase_drift_S12": 0.003326290733852433
+    },
+    {
+     "u_right": 270.0,
+     "unitary_defect": 2.278909423613546e-05,
+     "phase_drift_S12": 0.001832256833921575
+    },
+    {
+     "u_right": 360.0,
+     "unitary_defect": 1.2818834882366472e-05,
+     "phase_drift_S12": 0.0007800730797893896
+    }
+   ]
+  }
+ }
+}
