@@ -13,19 +13,23 @@
 \begin{scope}[shift={(0,0)}]
   \node[lab, anchor=west] at (-0.3,4.35) {(a)\ \ stationary ray ($t\to+\infty$, infinity channel)};
   % axes
-  \draw[axis] (0,0) -- (6.1,0) node[slab, anchor=north west, yshift=1mm] {$t$};
+  \draw[axis] (0,0) -- (6.6,0) node[slab, anchor=north west, yshift=1mm] {$t$};
   \draw[axis] (0,0) -- (0,3.55) node[slab, anchor=south] {$u$};
   % light ray u = t (reference)
   \draw[gray!60, line width=0.5pt, dashed] (0,0) -- (3.3,3.3);
   \node[tlab, gray!60!black, anchor=west, rotate=45] at (2.45,2.62) {$u=t$};
-  % stationary ray u = p t, p = kappa/omega < 1
-  \draw[chI, line width=1.1pt] (0,0) -- (5.6,2.80);
-  \node[tlab, chI, anchor=west, rotate=26.6] at (2.0,1.22)
-    {$u=p_{\omega'}\,t,\qquad p_{\omega'}=\kappa'/\omega'$};
-  % wave packet on the ray
-  \draw[chI, fill=chI!12, rotate around={26.6:(4.7,2.35)}]
-    (4.7,2.35) ellipse (0.62 and 0.26);
-  \draw[outarr, chI] (5.15,2.75) -- (5.75,3.05);
+  % stationary ray u = p t, p = kappa/omega < 1 (arrow = future direction)
+  \draw[chI, outarr, line width=1.1pt] (0,0) -- (6.15,3.075);
+  \node[tlab, chI, anchor=west, rotate=26.6, inner sep=1.5pt] at (1.05,0.68)
+    {$u=p_{\omega'}\,t$};
+  \node[tlab, chI, anchor=north west] at (1.55,0.42)
+    {$p_{\omega'}=\kappa'/\omega'$: massive group velocity};
+  % wave packet: support of the spatial-infinity packet at time t, centred on the ray
+  \draw[chI, fill=chI!12, rotate around={26.6:(5.0,2.5)}]
+    (5.0,2.5) ellipse (0.62 and 0.24);
+  \draw[chI, line width=0.4pt] (4.86,2.82) -- (4.55,3.15);
+  \node[tlab, chI, anchor=south, align=center] at (4.55,3.20)
+    {packet support\\ at time $t$};
   % stationary-point annotation
   \fill[acc] (3.55,1.775) circle (1.6pt);
   \draw[acc, line width=0.4pt] (3.62,1.70) -- (4.35,1.18);
