@@ -1,0 +1,306 @@
+{
+  "description": "argument-principle count for the two reported Schwarzschild quasi-bound Evans zeros",
+  "scope": "Counts zeros only in the stated rectangles and near-threshold window; does not enumerate the whole mass gap or the threshold-accumulating sequence.",
+  "results": [
+    {
+      "rectangle": {
+        "name": "level_1_box",
+        "x_min": 0.1935,
+        "x_max": 0.1964,
+        "y_min": 0.0,
+        "y_max": 0.00135
+      },
+      "solver": {
+        "u_right": 240.0,
+        "rtol": 1e-10,
+        "atol": 1e-11
+      },
+      "points_per_edge": 24,
+      "contour_samples": 96,
+      "zero_count": 1,
+      "raw_winding": 1.0,
+      "integer_distance": 0.0,
+      "min_abs_evans": 0.11477186145278262,
+      "min_relative_evans": 0.03523242510412364,
+      "max_phase_increment": 0.183389835501517,
+      "max_phase_increment_over_pi": 0.058374797665751973
+    },
+    {
+      "rectangle": {
+        "name": "level_1_box",
+        "x_min": 0.1935,
+        "x_max": 0.1964,
+        "y_min": 0.0,
+        "y_max": 0.00135
+      },
+      "solver": {
+        "u_right": 240.0,
+        "rtol": 1e-10,
+        "atol": 1e-11
+      },
+      "points_per_edge": 48,
+      "contour_samples": 192,
+      "zero_count": 1,
+      "raw_winding": 1.0,
+      "integer_distance": 0.0,
+      "min_abs_evans": 0.11477186145278262,
+      "min_relative_evans": 0.035062305520881194,
+      "max_phase_increment": 0.09268733735211047,
+      "max_phase_increment_over_pi": 0.029503295803228895
+    },
+    {
+      "rectangle": {
+        "name": "level_2_box",
+        "x_min": 0.1978,
+        "x_max": 0.19918,
+        "y_min": 0.0,
+        "y_max": 0.00032
+      },
+      "solver": {
+        "u_right": 240.0,
+        "rtol": 1e-10,
+        "atol": 1e-11
+      },
+      "points_per_edge": 24,
+      "contour_samples": 96,
+      "zero_count": 1,
+      "raw_winding": 1.0,
+      "integer_distance": 0.0,
+      "min_abs_evans": 3.479965525143798,
+      "min_relative_evans": 0.05620761576091244,
+      "max_phase_increment": 0.5634585246381428,
+      "max_phase_increment_over_pi": 0.17935441884685385
+    },
+    {
+      "rectangle": {
+        "name": "level_2_box",
+        "x_min": 0.1978,
+        "x_max": 0.19918,
+        "y_min": 0.0,
+        "y_max": 0.00032
+      },
+      "solver": {
+        "u_right": 240.0,
+        "rtol": 1e-10,
+        "atol": 1e-11
+      },
+      "points_per_edge": 48,
+      "contour_samples": 192,
+      "zero_count": 1,
+      "raw_winding": 1.0000000000000002,
+      "integer_distance": 2.220446049250313e-16,
+      "min_abs_evans": 3.479965525143798,
+      "min_relative_evans": 0.05620761576091244,
+      "max_phase_increment": 0.282871107361334,
+      "max_phase_increment_over_pi": 0.09004066998886905
+    },
+    {
+      "rectangle": {
+        "name": "two_level_window",
+        "x_min": 0.187,
+        "x_max": 0.19918,
+        "y_min": 0.0,
+        "y_max": 0.00135
+      },
+      "solver": {
+        "u_right": 240.0,
+        "rtol": 1e-10,
+        "atol": 1e-11
+      },
+      "points_per_edge": 24,
+      "contour_samples": 96,
+      "zero_count": 2,
+      "raw_winding": 2.0,
+      "integer_distance": 0.0,
+      "min_abs_evans": 0.11625822289705415,
+      "min_relative_evans": 0.036149083635289674,
+      "max_phase_increment": 2.3341993428716816,
+      "max_phase_increment_over_pi": 0.742998727159764
+    },
+    {
+      "rectangle": {
+        "name": "two_level_window",
+        "x_min": 0.187,
+        "x_max": 0.19918,
+        "y_min": 0.0,
+        "y_max": 0.00135
+      },
+      "solver": {
+        "u_right": 240.0,
+        "rtol": 1e-10,
+        "atol": 1e-11
+      },
+      "points_per_edge": 48,
+      "contour_samples": 192,
+      "zero_count": 2,
+      "raw_winding": 2.0,
+      "integer_distance": 0.0,
+      "min_abs_evans": 0.11625822289705415,
+      "min_relative_evans": 0.035530285991245546,
+      "max_phase_increment": 1.8380122324367323,
+      "max_phase_increment_over_pi": 0.5850574645113513
+    },
+    {
+      "rectangle": {
+        "name": "level_1_box",
+        "x_min": 0.1935,
+        "x_max": 0.1964,
+        "y_min": 0.0,
+        "y_max": 0.00135
+      },
+      "solver": {
+        "u_right": 320.0,
+        "rtol": 1e-11,
+        "atol": 1e-12
+      },
+      "points_per_edge": 24,
+      "contour_samples": 96,
+      "zero_count": 1,
+      "raw_winding": 1.0,
+      "integer_distance": 0.0,
+      "min_abs_evans": 0.11415855073399753,
+      "min_relative_evans": 0.035232425087029916,
+      "max_phase_increment": 0.18356149187499643,
+      "max_phase_increment_over_pi": 0.05842943758645693
+    },
+    {
+      "rectangle": {
+        "name": "level_1_box",
+        "x_min": 0.1935,
+        "x_max": 0.1964,
+        "y_min": 0.0,
+        "y_max": 0.00135
+      },
+      "solver": {
+        "u_right": 320.0,
+        "rtol": 1e-11,
+        "atol": 1e-12
+      },
+      "points_per_edge": 48,
+      "contour_samples": 192,
+      "zero_count": 1,
+      "raw_winding": 1.0,
+      "integer_distance": 0.0,
+      "min_abs_evans": 0.11415855073399753,
+      "min_relative_evans": 0.03506230550072559,
+      "max_phase_increment": 0.09277703563936711,
+      "max_phase_increment_over_pi": 0.029531847654836435
+    },
+    {
+      "rectangle": {
+        "name": "level_2_box",
+        "x_min": 0.1978,
+        "x_max": 0.19918,
+        "y_min": 0.0,
+        "y_max": 0.00032
+      },
+      "solver": {
+        "u_right": 320.0,
+        "rtol": 1e-11,
+        "atol": 1e-12
+      },
+      "points_per_edge": 24,
+      "contour_samples": 96,
+      "zero_count": 1,
+      "raw_winding": 1.0,
+      "integer_distance": 0.0,
+      "min_abs_evans": 3.373949134587184,
+      "min_relative_evans": 0.05605142254156169,
+      "max_phase_increment": 0.5713848335704138,
+      "max_phase_increment_over_pi": 0.1818774413409426
+    },
+    {
+      "rectangle": {
+        "name": "level_2_box",
+        "x_min": 0.1978,
+        "x_max": 0.19918,
+        "y_min": 0.0,
+        "y_max": 0.00032
+      },
+      "solver": {
+        "u_right": 320.0,
+        "rtol": 1e-11,
+        "atol": 1e-12
+      },
+      "points_per_edge": 48,
+      "contour_samples": 192,
+      "zero_count": 1,
+      "raw_winding": 1.0000000000000002,
+      "integer_distance": 2.220446049250313e-16,
+      "min_abs_evans": 3.373949134587184,
+      "min_relative_evans": 0.05605142254156169,
+      "max_phase_increment": 0.28867918594986897,
+      "max_phase_increment_over_pi": 0.09188943882333214
+    },
+    {
+      "rectangle": {
+        "name": "two_level_window",
+        "x_min": 0.187,
+        "x_max": 0.19918,
+        "y_min": 0.0,
+        "y_max": 0.00135
+      },
+      "solver": {
+        "u_right": 320.0,
+        "rtol": 1e-11,
+        "atol": 1e-12
+      },
+      "points_per_edge": 24,
+      "contour_samples": 96,
+      "zero_count": 2,
+      "raw_winding": 2.0,
+      "integer_distance": 0.0,
+      "min_abs_evans": 0.11565553390021065,
+      "min_relative_evans": 0.03614908362032374,
+      "max_phase_increment": 2.3533353706900484,
+      "max_phase_increment_over_pi": 0.7490899139966382
+    },
+    {
+      "rectangle": {
+        "name": "two_level_window",
+        "x_min": 0.187,
+        "x_max": 0.19918,
+        "y_min": 0.0,
+        "y_max": 0.00135
+      },
+      "solver": {
+        "u_right": 320.0,
+        "rtol": 1e-11,
+        "atol": 1e-12
+      },
+      "points_per_edge": 48,
+      "contour_samples": 192,
+      "zero_count": 2,
+      "raw_winding": 2.0,
+      "integer_distance": 0.0,
+      "min_abs_evans": 0.11565553390021065,
+      "min_relative_evans": 0.03553028596875493,
+      "max_phase_increment": 1.8564346003665784,
+      "max_phase_increment_over_pi": 0.5909214863503365
+    }
+  ],
+  "gates": {
+    "level_1_box": {
+      "stable_integer_count": true,
+      "min_relative_evans": 0.03506230550072559,
+      "max_integer_distance": 0.0,
+      "max_phase_increment_over_pi": 0.05842943758645693,
+      "certified": true
+    },
+    "level_2_box": {
+      "stable_integer_count": true,
+      "min_relative_evans": 0.05605142254156169,
+      "max_integer_distance": 2.220446049250313e-16,
+      "max_phase_increment_over_pi": 0.1818774413409426,
+      "certified": true
+    },
+    "two_level_window": {
+      "stable_integer_count": true,
+      "min_relative_evans": 0.03553028596875493,
+      "max_integer_distance": 0.0,
+      "max_phase_increment_over_pi": 0.7490899139966382,
+      "certified": true
+    }
+  },
+  "numerically_certified": true
+}
