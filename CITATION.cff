@@ -1,0 +1,43 @@
+# Authors: Davide Batic and Dr. Denys Dutykh (Mathematics Department, Khalifa University
+# of Science and Technology, Abu Dhabi, UAE)
+#
+# Citation metadata in Citation File Format 1.2.0, from which GitHub draws its button
+# "Cite this repository". The article that these codes accompany has been submitted and
+# has no public record yet, so the software itself is cited.
+
+cff-version: 1.2.0
+message: "If you use these codes or their results, please cite this software as given below."
+title: "kerr-dirac-scattering: two-channel Dollard scattering and partial-wave resonances for massive Dirac fields on Kerr"
+abstract: >-
+  Python codes accompanying the article "Two-Channel Dollard Scattering and Partial-Wave
+  Resonances for Massive Dirac Fields on Kerr" by D. Batic and D. Dutykh. They compute the
+  partial scattering matrices of massive Dirac fields outside Schwarzschild and Kerr black
+  holes by matching Jost solutions of the radial system, check unitarity, the conservation of
+  the Wronskian and the identities implied by the conjugation symmetry, follow the convergence
+  in the outer endpoint, and locate the quasi-bound levels in the mass gap with their
+  parameter-free Breit-Wigner signature and a count of zeros by the argument principle.
+type: software
+version: "1.0.0"
+date-released: "2026-11-15"
+license: LGPL-2.1-only
+repository-code: "https://github.com/dutykh/kerr-dirac-scattering"
+keywords:
+  - black-holes
+  - dirac-equation
+  - general-relativity
+  - kerr-black-hole
+  - mathematical-physics
+  - quasibound-states
+  - scattering-theory
+  - python
+  - research-code
+  - reproducible-research
+authors:
+  - family-names: Batic
+    given-names: Davide
+    affiliation: "Mathematics Department, Khalifa University of Science and Technology, Abu Dhabi, United Arab Emirates"
+    orcid: "https://orcid.org/0000-0002-7619-4900"
+  - family-names: Dutykh
+    given-names: Denys
+    affiliation: "Mathematics Department, Khalifa University of Science and Technology, Abu Dhabi, United Arab Emirates"
+    orcid: "https://orcid.org/0000-0001-5247-2788"
